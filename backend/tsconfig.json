@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "outDir": "dist",
+      "noImplicitAny": false,
+      "sourceMap": true,
+      "module": "commonjs",
+      "target": "es2018",
+      "declaration": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "typeRoots": [
+        "node_modules/@types"
+      ]
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["node_modules", ".vscode"]
+  }

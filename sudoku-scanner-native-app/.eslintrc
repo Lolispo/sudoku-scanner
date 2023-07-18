@@ -1,0 +1,27 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
+      "sourceType": "module" // Allows for the use of imports
+    },
+    "rules": {
+      "object-curly-spacing": [2, "always"],
+      "keyword-spacing": [2, { "after": true }],
+      "quotes": [2, "single", "avoid-escape"],
+      "@typescript-eslint/camelcase": [2, {
+        "properties": "never",
+        "ignoreDestructuring": true
+      }],
+      "indent": ["error", 2]
+    }
+  }
+  
